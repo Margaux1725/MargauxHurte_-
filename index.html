@@ -5,28 +5,29 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title>Ohmyfood!</title>
-            <link rel="stylesheet" href="css/style.scss">
+            <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" media="#########" href="##############" type="text/scss"/>
             <link rel="stylesheet" media="################" href="#############" type="text/scss" />
             <script src="https://kit.fontawesome.com/0b64295bd8.js" crossorigin="anonymous"></script>
-            <style>@font-face {font-family: Raleway; src: url('font/Raleway-VariableFont_wght.ttf')}</style>
+            <style>@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');</style>  
         </head>
         
         <body>
             <!--Logo-->
-            <header>
-                <h1><a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="Logo"></a></h1>
-            </header>
-            <!--CTA-->
+            <header class="Header">
+                <h1 class="Logo"><a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="Logo"></a></h1>
+            </header> 
             <main>
-                <section>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input id="searchbar" type="text" name="search" placeholder="Paris, Belleville">
+            <!--Barre de recherche-->
+                <section class="BarreDeRecherche">
+                    <i class="fas fa-map-marker-alt" id="IconeBarreDeRecherche" ></i>
+                    <input class="SaisiDeRecherche" type="text" name="search" placeholder="Paris, Belleville">
                 </section>
-                <section>
+            <!--CTA-->
+                <section id="CTA">
                     <h2>Réservez le menu qui vous convient</h2>
                     <p>Découvrez des restaurants d'exeption, séléctionnés par nos soins.</p>
-                    <button>Explorer nos restaurants</button>
+                    <a href="#"><button>Explorer nos restaurants</button></a>
                 </section>
             <!--Fonctionnement-->
                 <section>
