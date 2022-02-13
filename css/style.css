@@ -113,3 +113,98 @@ body{
 .Etape p{
     font-weight: bold;
 }
+
+/*Restaurants*/
+.TitreRestaurant{
+    margin-left: 5%;
+}
+.BlocRestaurants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Box
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 90%;
+    height: 275px;
+    margin: 0 0 25px 0;
+}
+.ImgBox
+{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.Restaurants a {
+    display: contents; 
+}
+.Nouveau{
+    background-color: #99e2d0;
+    color: #008766;
+    width: 18%;
+    padding: 1% 1% 1% 1%;
+    position: absolute;
+    text-align: center;
+    left: 71%;
+    margin-top: 4%;
+}
+.TexteBoxRestaurant{
+    display: flex;
+    flex-direction: column;
+    width: 50% ;
+}
+.FigCaption a{
+    text-decoration: none;
+    color: black;
+    flex: content;
+    width: 100%;
+}
+.FigCaption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.TexteBoxRestaurant h3{
+    margin: 5% 0 0 5%;  
+}
+.TexteBoxRestaurant p{
+    margin: 3% 0 0 5%;
+}
+.Coeur{
+    align-self: center;
+    margin-right: 7%;
+    font-size: 1.5em;
+}
+/*Footer*/
+footer{
+    background-color:#353535 ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.LogoFooter{
+    color: white;
+    width: 25%;
+    margin : 5% 0 0 8% ;
+}
+.ListeFooter{
+    list-style-type: none;
+    line-height: 1.7em;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+.ListeFooter a{
+    text-decoration: none;
+    color:#ffffff ;
+}
+footer i {
+    max-width: 3%;
+    font-size: 1em;
+    margin-right: 4%;
+}
