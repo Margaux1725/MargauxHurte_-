@@ -1,126 +1,130 @@
 <!doctype html>
     <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Le délice des sens</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" media="#########" href="##############" type="text/css"/>
-        <link rel="stylesheet" media="################" href="#############" type="text/css" />
-        <script src="https://kit.fontawesome.com/0b64295bd8.js" crossorigin="anonymous"></script>
-        <style>@font-face {font-family: Raleway; src: url('font/Raleway-VariableFont_wght.ttf')}</style>
-    </head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>La palette du goût</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" media="#########" href="##############" type="text/css"/>
+            <link rel="stylesheet" media="################" href="#############" type="text/css" />
+            <script src="https://kit.fontawesome.com/0b64295bd8.js" crossorigin="anonymous"></script>
+            <style>@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');</style> 
+        </head>
 
-    <body>
-        <!--Logo-->
-        <header>
-            <i class="fa-solid fa-arrow-left"></i>
-            <h1><a href="index.html"><img src="images/logo/ohmyfood@2x.svg" alt="Logo"></a></h1>
-        </header>
-        <img src="images/restaurants/img_le_délice_des_sens.jpg" alt="Le délice des sens">
-        <main>
-            <header>
-                <h1>Le délice des sens</h1>
-                <i class="far fa-heart"></i>
+        <body>
+<!------------Logo-------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <header class="Header">
+                <a href="index.html" class="Fleche"> <i class="fa-solid fa-arrow-left"></i></a>
+                <h1><a href="index.html"><img src="images/logo/ohmyfood@2x.svg" alt="Logo" class="Logo"></a></h1>
             </header>
-            <div>
-                <!--Entrees-->
-                <section>
-                    <h2>Entrées</h2>
-                    <article>
-                        <header>
-                            <h3>Tartare de thon</h3>
-                            <p>Assaisonné au yuzu</p>
-                        </header>
-                        <p>25€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Bouchée de homard croustillant</h3>
-                            <p>Et sa farandole de petits légumes</p>
-                        </header>
-                        <p>35€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Velouté de cèpes</h3>
-                            <p>Aux truffes</p>
-                        </header>
-                        <p>20€</p>
-                    </article>
-                </section>
-                <!--Plats-->
-                <section>
-                    <h2>Plats</h2>
-                    <article>
-                        <header>
-                            <h3>Poulet rôti aux herbes de Provence</h3>
-                            <p>Et sa crème de truffe</p>
-                        </header>
-                        <p>40€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Langouste rôtie</h3>
-                            <p>Et ses légumes de saison</p>
-                        </header>
-                        <p>35€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Côte de boeuf Angus</h3>
-                            <p>Et sa purée de panais</p>
-                        </header>
-                        <p>44€</p>
-                    </article>
-                </section>
-                <!--Desserts-->
-                <section>
-                    <h2>Desserts</h2>
-                    <article>
-                        <header>
-                            <h3>Farandole de desserts</h3>
-                            <p>Du chef</p>
-                        </header>
-                        <p>18€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Crème brulée</h3>
-                            <p>Revisitée</p>
-                        </header>
-                        <p>22€</p>
-                    </article>
-                    <article>
-                        <header>
-                            <h3>Tiramisu</h3>
-                            <p>À la noisette</p>
-                        </header>
-                        <p>23€</p>
-                    </article>
-                </section>
-            </div>
-            <!--Bouton commander-->
-            <button>Commander</button>
-        </main>
-        <!--Footer-->
-        <footer>
-            <img src="images/logo/ohmyfood@2x.svg" alt="Ohmyfood!">
-            <ul>
-                <li>
-                    <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-hands-helping"></i></i>Devenir partenaire</a>
-                </li>
-                <li>
-                    <a href="#">Mentions légales</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-</html>
+            <img src="images/restaurants/img_le_délice_des_sens.jpg" alt="Le délice des sens" class="ImageRestaurant">
+            <main id="MainMenus">
+<!-------------Nom du restaurant------------------------------------------------------------------------------------------------------------------------------------------>
+                <header class="NomRestaurant_Coeur">
+                    <h1>Le délice des sens</h1>
+                    <i class="fa-regular fa-heart"></i>
+                </header>
+                <div id="Nouriture">
+<!----------------Entrees------------------------------------------------------------------------------------------------------------------------------------------------->
+                    <section id="Entree">
+                        <h2>Entrées</h2>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Tartare de thon</h3>
+                                <p>Assaisonné au yuzu</p>
+                            </header>
+                            <p class="Prix">25€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Bouchée de homard croustillant</h3>
+                                <p>Et sa farandole de petits légumes</p>
+                            </header>
+                            <p class="Prix">35€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Velouté de cèpes</h3>
+                                <p>Aux truffes</p>
+                            </header>
+                            <p class="Prix">20€</p>
+                        </article>
+                    </section>
+<!-------------------Plats------------------------------------------------------------------------------------------------------------------------------------------------>
+                    <section>
+                        <h2>Plats</h2>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Poulet rôti aux herbes de Provence</h3>
+                                <p>Et sa crème de truffe</p>
+                            </header>
+                            <p class="Prix">40€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Langouste rôtie</h3>
+                                <p>Et ses légumes de saison</p>
+                            </header>
+                            <p class="Prix">35€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Côte de boeuf Angus</h3>
+                                <p>Et sa purée de panais</p>
+                            </header>
+                            <p class="Prix">44€</p>
+                        </article>
+                    </section>
+<!--------------------Desserts-------------------------------------------------------------------------------------------------------------------------------------------->
+                    <section>
+                        <h2>Desserts</h2>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Farandole de desserts</h3>
+                                <p>Du chef</p>
+                            </header>
+                            <p class="Prix">18€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Crème brulée</h3>
+                                <p>Revisitée</p>
+                            </header>
+                            <p class="Prix">22€</p>
+                        </article>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
+                                <h3>Tiramisu</h3>
+                                <p>À la noisette</p>
+                            </header>
+                            <p class="Prix">23€</p>
+                        </article>
+                    </section>
+                </div>
+<!-----------------Bouton commander---------------------------------------------------------------------------------------------------------------------------------------->
+                <a href="#"><button class="BoutonCommander">Commander</button></a>
+            </main>
+<!-----------------Footer-------------------------------------------------------------------------------------------------------------------------------------------------->
+            <footer>
+                <img src="images/logo/ohmyfood@2x - Footer.svg" alt="Ohmyfood!" class="LogoFooter">
+                <ul class="ListeFooter">
+                    <li>
+                        <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-hands-helping"></i></i>Devenir partenaire</a>
+                    </li>
+                    <li>
+                        <a href="#">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </footer>
+        </body>
+    </html>

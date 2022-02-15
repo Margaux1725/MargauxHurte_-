@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0 0 0 0;
@@ -49,6 +49,7 @@ body{
     align-self: center;
     margin: 5% 15% 2% 15%;
     text-align: center;
+    font-weight: 700;
 }
 #CTA p{
     align-self: center;
@@ -115,6 +116,9 @@ body{
 }
 
 /*Restaurants*/
+#Resto{
+    margin-bottom: 8%;
+}
 .TitreRestaurant{
     margin-left: 5%;
 }
@@ -186,7 +190,6 @@ footer{
     background-color:#353535 ;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
 }
 .LogoFooter{
     color: white;
@@ -209,4 +212,109 @@ footer i {
     margin-right: 4%;
 }
 
-/*Page Menus*/
+/**************************************************************************Page Menus*************************************************************************************/
+/****************************************************************************Header****************************************************************************************/
+.Fleche {
+    position: absolute;
+    left: 5%;
+    text-decoration: none;
+    color: black;
+}
+Header h1 {
+    margin: 7px 0 0 0;
+}
+/****************************************************************************Image****************************************************************************************/
+.ImageRestaurant {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/****************************************************************************Menu*****************************************************************************************/
+#MainMenus{
+    background-color: #f6f6f6;
+}
+.NomRestaurant_Coeur{
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    position: relative;
+    justify-content: space-between;
+    top: -40px;
+    width: 100%;
+}
+.NomRestaurant_Coeur h1{
+    margin: 5% 0 0 4%;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 300;
+}
+.NomRestaurant_Coeur i {
+    margin: 7% 8% 0 0;
+    font-size: 1.5em; 
+}
+#Entree{
+    display: flex;
+    flex-direction: column;
+}
+#Nouriture h2{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0 0 1% 5%;
+}
+.Soulignage{
+    background-color: #99e2d0;
+    padding: 1px ;
+    width: 9%;
+    margin-left: 5%;
+}
+.BoxNourriture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin: 3% 3% 3% 3%;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #0000002e;
+}
+.NomNouriture{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+article header h3 {
+    margin: 6% 0 2% 4%; 
+    width: 100%;
+}
+article header p {
+    margin: 0 0 6% 4%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 87%;
+}
+.Prix{
+    align-self: flex-end;
+    margin: 0 5% 3% 0;
+    color: #353535;
+    font-weight: 700;
+}
+.BoutonCommander{
+    background: linear-gradient(176deg, rgba(235,115,218,1) 0%, rgba(219,110,218,1) 41%, rgba(174,95,219,1) 100%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: 45%;
+    height: 45px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.25);
+    margin: 8% 0 20% 0;
+}
+#MainMenus a{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+}

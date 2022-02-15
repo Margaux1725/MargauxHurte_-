@@ -4,116 +4,121 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>La note enchantée</title>
+            <title>La palette du goût</title>
             <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" media="#########" href="##############" type="text/css"/>
             <link rel="stylesheet" media="################" href="#############" type="text/css" />
             <script src="https://kit.fontawesome.com/0b64295bd8.js" crossorigin="anonymous"></script>
-            <style>@font-face {font-family: Raleway; src: url('font/Raleway-VariableFont_wght.ttf')}</style>
+            <style>@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');</style> 
         </head>
 
         <body>
-            <!--Logo-->
-            <header>
-                <i class="fa-solid fa-arrow-left"></i>
-                <h1><a href="index.html"><img src="images/logo/ohmyfood@2x.svg" alt="Logo"></a></h1>
+<!-----------Logo-------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <header class="Header">
+                <a href="index.html" class="Fleche"> <i class="fa-solid fa-arrow-left"></i></a>
+                <h1><a href="index.html"><img src="images/logo/ohmyfood@2x.svg" alt="Logo" class="Logo"></a></h1>
             </header>
-            <img src="images/restaurants/img_la_note_enchantee.jpg" alt="La note enchantée">
-            <main>
-                <header>
+            <img src="images/restaurants/img_la_note_enchantee.jpg" alt="La note enchantée" class="ImageRestaurant">
+            <main id="MainMenus">
+<!-----------Nom du restaurant------------------------------------------------------------------------------------------------------------------------------------------->
+                <header class="NomRestaurant_Coeur">
                     <h1>La note enchantée</h1>
-                    <i class="far fa-heart"></i>
+                    <i class="fa-regular fa-heart"></i>
                 </header>
-                <div>
-                    <!--Entrees-->
-                    <section>
+                <div id="Nouriture">
+-<!----------Entrees----------------------------------------------------------------------------------------------------------------------------------------------------->
+                    <section id="Entree">
                         <h2>Entrées</h2>
-                        <article>
-                            <header>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Ravioles de foie gras</h3>
                                 <p>Accompagnés de leur crème à la truffe</p>
                             </header>
-                            <p>25€</p>
+                            <p class="Prix">25€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Caviar osciètre</h3>
                                 <p>Sur blini à la farine de blé noir</p>
                             </header>
-                            <p>35€</p>
+                            <p class="Prix">35€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Homard et espuma de potiron</h3>
                                 <p>Mariné aux zestes d'orange</p>
                             </header>
-                            <p>20€</p>
+                            <p class="Prix">20€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Foie gras de canard cuit entier</h3>
                                 <p>Confiture de figue et pain toasté</p>
                             </header>
-                            <p>35€</p>
+                            <p class="Prix">35€</p>
+                        </article>
                     </section>
-                    <!--Plats-->
+<!--------------------Plats----------------------------------------------------------------------------------------------------------------------------------------------->
                     <section>
                         <h2>Plats</h2>
-                        <article>
-                            <header>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Noix de coquilles Saint-Jacques</h3>
                                 <p>Sur lit de purée de céleri-rave</p>
                             </header>
-                            <p>40€</p>
+                            <p class="Prix">40€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Langoustine poêlée</h3>
                                 <p>Purée de patate douce</p>
                             </header>
-                            <p>35€</p>
+                            <p class="Prix">35€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Mijoté de queue de boeuf</h3>
                                 <p>Et riz sauvage aux zestes de citron</p>
                             </header>
-                            <p>44€</p>
+                            <p class="Prix">44€</p>
                         </article>
                     </section>
-                    <!--Desserts-->
+<!-------------------Desserts--------------------------------------------------------------------------------------------------------------------------------------------->
                     <section>
                         <h2>Desserts</h2>
-                        <article>
-                            <header>
+                        <div class="Soulignage"></div>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Macaron noisette et chocolat</h3>
                                 <p>Glace au caramel brun et sel de Guérande</p>
                             </header>
-                            <p>18€</p>
+                            <p class="Prix">18€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Baba au rhum revisité</h3>
                                 <p>Avec son coulis de citron</p>
                             </header>
-                            <p>22€</p>
+                            <p class="Prix">22€</p>
                         </article>
-                        <article>
-                            <header>
+                        <article class="BoxNourriture">
+                            <header class="NomNouriture">
                                 <h3>Tarte au citron meringuée</h3>
                                 <p>Déstructurée</p>
                             </header>
-                            <p>23€</p>
+                            <p class="Prix">23€</p>
                         </article>
                     </section>
                 </div>
-                <!--Bouton commander-->
-                <button>Commander</button>
+<!-------------------Bouton commander------------------------------------------------------------------------------------------------------------------------------------->
+                <a href="#"><button class="BoutonCommander">Commander</button></a>
             </main>
-            <!--Footer-->
+<!-------------------Footer----------------------------------------------------------------------------------------------------------------------------------------------->
             <footer>
-                <img src="images/logo/ohmyfood@2x.svg" alt="Ohmyfood!">
-                <ul>
+                <img src="images/logo/ohmyfood@2x - Footer.svg" alt="Ohmyfood!" class="LogoFooter">
+                <ul class="ListeFooter">
                     <li>
                         <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
                     </li>
