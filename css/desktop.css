@@ -1,0 +1,77 @@
+@media screen and (min-width : 1024px){
+/*********************************************************************************Header**********************************************************************************/
+.Logo{
+    margin: 1% 0 1% 0;
+}
+/**************************************************************************Barre de recherche*****************************************************************************/
+.BarreDeRecherche{
+    padding: 1% 0 1% 0;
+}
+#IconeBarreDeRecherche{
+    margin: 0 1% 0 12%;
+}
+.SaisiDeRecherche{
+    width: 20%;
+}
+#CTA h2{
+    margin: 40px 0 20px 0;
+    width: 18%;
+}
+.BoutonExploration{
+    width: 27%;
+    cursor: pointer;
+}
+#CTA a {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    margin: 40px 0 40px 0;
+}
+.EtapesTutoriel{
+    display:flex ;
+    flex-direction: row;
+    margin: 40px 3% 3% 20px;
+    justify-content: space-between;
+    align-self: center;
+}
+.Etape{
+    width: 30%;
+}
+.Etape h3{
+    position: relative;
+    margin-right: 3%;
+}
+#Tutoriel h2{
+    margin-top: 40px;
+}
+#Tutoriel{
+    height: 200px;
+}
+.BlocRestaurants{
+    flex-direction: row ;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.Box{
+    margin: 20px 3% 20px 3%;
+    width: 40%;
+    height: 300px;
+}
+.ImgBox{
+    height: 200px;
+}
+.Nouveau{
+    display: flex;
+    justify-content: center;
+    
+}
+    .FigCaption{
+    
+}
+
+
+
+
+}
