@@ -13,6 +13,7 @@
 .SaisiDeRecherche{
     width: 20%;
 }
+/***************************************************************************CTA*******************************************************************************************/
 #CTA h2{
     margin: 40px 0 20px 0;
     width: 18%;
@@ -27,6 +28,7 @@
     text-decoration: none;
     margin: 40px 0 40px 0;
 }
+/**************************************************************************Tutoriel**************************************************************************************/
 .EtapesTutoriel{
     display:flex ;
     flex-direction: row;
@@ -47,6 +49,7 @@
 #Tutoriel{
     height: 200px;
 }
+/***************************************************************************Restaurant***********************************************************************************/
 .BlocRestaurants{
     flex-direction: row ;
     flex-wrap: wrap;
@@ -59,19 +62,60 @@
     width: 40%;
     height: 300px;
 }
+.Box:hover{
+    transform: scale(1.10);
+}
 .ImgBox{
-    height: 200px;
+    height: 215px;
 }
-.Nouveau{
+/***************************************************************************Footer***************************************************************************************/
+.LogoFooter{
+    
+    width: 10%;
+    margin: 25px 0 0 5%;
+}
+footer i{
+    margin: 0 10% 0 0;
+    max-width: 0.1%;
+}
+.ListeFooter{
     display: flex;
-    justify-content: center;
-    
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-    .FigCaption{
-    
+footer li{
+    margin: 25px 0 25px 5%;
+    width: 20%;
 }
-
-
-
+footer li:hover{
+    text-decoration: underline white ;
+}
+/************************************************************************Page Restaurants********************************************************************************/
+.ImageRestaurant{
+    height: 500px;
+}
+#Nouriture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ListeNouriture{
+    width: 32%;
+    margin: 0 2% 0 2%;
+}
+.BoutonCommander{
+    width: 20%;
+    height: 55px;
+    margin: 100px 40% 100px 40%;
+}
+.BoxNourriture{
+    min-width: 100%;
+}
+#MainMenus a{
+    display: contents;
+}
+.Soulignage{
+    width: 7.5%;
+}
 
 }
