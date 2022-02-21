@@ -115,7 +115,7 @@ body{
     font-weight: bold;
 }
 
-/*Restaurants*/
+/*****************************************************************Restaurants********************************************************************************************/
 #Resto{
     margin-bottom: 8%;
 }
@@ -151,12 +151,16 @@ body{
 .Nouveau{
     background-color: #99e2d0;
     color: #008766;
+    z-index: 2;
     width: 18%;
-    padding: 1% 1% 1% 1%;
-    position: absolute;
+    height: 23px;
+    padding-top: 4px ;
     text-align: center;
-    left: 71%;
-    margin-top: 4%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    position: absolute;
+    margin-right: 2%;
 }
 .TexteBoxRestaurant{
     display: flex;
