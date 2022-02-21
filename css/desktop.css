@@ -86,8 +86,38 @@
     position: absolute;
     margin-right: 2%;
 }
-
-
+.Coeurs{
+    display: flex;
+}
+.CoeurVide{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 20px 24px 12.5px 0;
+    display: flex;
+    fill: black;
+    z-index: 2;
+    }
+.CoeurRempli{
+    visibility:visible;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+    right: 64% ;
+    top: 4.5px;
+}
+.CoeurVide:hover{
+    opacity: 0;
+    transition: 0.5s;
+}
+.CoeurRempli:hover{
+    opacity: 1;
+    fill: url(#Hover);
+    transition: 0.5s;
+}
 /***************************************************************************Footer***************************************************************************************/
 .LogoFooter{
     
@@ -138,4 +168,37 @@ footer li:hover{
     width: 7.5%;
 }
 
+.CoeursRestaurant{
+    display: flex;
+}
+.CoeurVideRestaurant{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 20px 24px 12.5px 0;
+    display: flex;
+    fill: black;
+    z-index: 2;
+    top: 76px;
+    }
+.CoeurRempliRestaurant{
+    visibility:visible;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+    right: 64% ;
+    top: 40px;
+}
+.CoeurVideRestaurant:hover{
+    opacity: 0;
+    transition: 0.5s;
+}
+.CoeurRempliRestaurant:hover{
+    opacity: 1;
+    fill: url(#Hover);
+    transition: 0.5s;
+}
 }
