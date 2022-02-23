@@ -64,7 +64,7 @@
 .Box{
     margin: 20px 3% 20px 3%;
     width: 40%;
-    height: 300px;
+    height: 310px;
     z-index: 1;
 }
 .Box:hover{
@@ -93,7 +93,9 @@
     width: 30px;
     height: 30px;
     position: relative;
-    margin: 20px 24px 12.5px 0;
+    align-self: center;
+    margin: 0%;
+    /*margin: 20px 24px 12.5px 0;*/
     display: flex;
     fill: black;
     z-index: 2;
@@ -106,8 +108,8 @@
     position: relative;
     opacity: 0;
     z-index: 3;
-    right: 64% ;
-    top: 8.5px;
+    right: 50% ;
+    top: 0px;
 }
 .CoeurVide:hover{
     opacity: 0;
