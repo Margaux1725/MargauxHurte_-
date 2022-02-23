@@ -326,3 +326,16 @@ article header p {
     justify-content: space-around;
     text-decoration: none;
 }
+.CoeurVideRestaurant{
+    width: 25px;
+    height: 25px;
+    margin: 30px 25px 0 0;
+    display: flex;
+    align-self: flex-end;
+    fill: black;
+}
+.CoeurRempliRestaurant{
+    visibility:hidden;
+    width: 0;
+    height: 0;
+}
