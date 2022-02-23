@@ -107,7 +107,7 @@
     opacity: 0;
     z-index: 3;
     right: 64% ;
-    top: 4.5px;
+    top: 8.5px;
 }
 .CoeurVide:hover{
     opacity: 0;
@@ -179,7 +179,7 @@ footer li:hover{
     display: flex;
     fill: black;
     z-index: 2;
-    top: 76px;
+    top: -4px;
     }
 .CoeurRempliRestaurant{
     visibility:visible;
@@ -200,5 +200,10 @@ footer li:hover{
     opacity: 1;
     fill: url(#Hover);
     transition: 0.5s;
+}
+/*********************************************************************Loader*********************************************************************************************/
+.loader-circles{
+    top: 35%;
+    left: 44%;
 }
 }
