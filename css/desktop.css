@@ -87,37 +87,39 @@
     margin-right: 2%;
 }
 .Coeurs{
-    display: flex;
+    display: initial;
 }
 .CoeurVide{
-    width: 30px;
-    height: 30px;
+    font-size: 2em;
     position: relative;
-    align-self: center;
-    margin: 0%;
-    /*margin: 20px 24px 12.5px 0;*/
+    margin: 20px 24px 12.5px 0;
     display: flex;
     fill: black;
     z-index: 2;
-    }
+    bottom: 16px;
+    right: -43px;
+}
 .CoeurRempli{
+    padding: 40px 40px 40px 40px;
+    display: initial;
     visibility:visible;
-    width: 30px;
-    height: 30px;
+    font-size: 2.1em;
     align-self: center;
     position: relative;
     opacity: 0;
     z-index: 3;
-    right: 50% ;
-    top: 0px;
+    right: 39.5% ;
+    top: -15px;
 }
 .CoeurVide:hover{
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
 .CoeurRempli:hover{
     opacity: 1;
-    fill: url(#Hover);
+    background: linear-gradient(176deg, rgba(235,115,218,1) 0%, rgba(219,110,218,1) 41%, rgba(174,95,219,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.5s;
 }
 /***************************************************************************Footer***************************************************************************************/
@@ -169,30 +171,31 @@ footer li:hover{
 .Soulignage{
     width: 7.5%;
 }
-
-.CoeursRestaurant{
+.NomRestaurant_Coeur{
     display: flex;
+    justify-content: space-between;
 }
 .CoeurVideRestaurant{
-    width: 30px;
-    height: 30px;
+    font-size: 2em;
     position: relative;
     margin: 20px 24px 12.5px 0;
     display: flex;
     fill: black;
     z-index: 2;
-    top: -4px;
+    right: 100%;
+    top: 100px;
     }
 .CoeurRempliRestaurant{
     visibility:visible;
     width: 30px;
     height: 30px;
+    font-size: 2.2em;
     align-self: center;
     position: relative;
     opacity: 0;
     z-index: 3;
-    right: 64% ;
-    top: 40px;
+    right: 99.5% ;
+    top: 71px;
 }
 .CoeurVideRestaurant:hover{
     opacity: 0;
@@ -200,7 +203,9 @@ footer li:hover{
 }
 .CoeurRempliRestaurant:hover{
     opacity: 1;
-    fill: url(#Hover);
+    background: linear-gradient(176deg, rgba(235,115,218,1) 0%, rgba(219,110,218,1) 41%, rgba(174,95,219,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.5s;
 }
 /*********************************************************************Loader*********************************************************************************************/
@@ -208,4 +213,5 @@ footer li:hover{
     top: 35%;
     left: 46%;
 }
+
 }
