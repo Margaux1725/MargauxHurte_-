@@ -98,11 +98,23 @@ article header p {
     width: 4%;
 }
 .BoutonCommander{
-    margin: 40px 0 50px 0;
+    margin: 8% 27.5% 12% 27.5%;
 }
 .CoeurVideRestaurant{
-    margin-top: 50px;
-    margin-right: 60px;
+    margin: 50px 50px 0 0;
+}
+.NomRestaurant_Coeur {
+    justify-content: space-between;
+}
+.NomRestaurant_Coeur h1{
+    margin-left: 4%;
+}
+.CoeurRempliRestaurant{
+    visibility:hidden;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 1%;
 }
 /***************************************************************************Footer**************************************************************************************/
 footer i{
