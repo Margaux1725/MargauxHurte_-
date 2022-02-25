@@ -302,5 +302,30 @@ article header p{
               transform: translateX(-100px);
     }
   }
-     
+
+
+
+  @keyframes opacity {
+    0% {
+        transform: translatey(20px) ;
+        opacity: 0;
+      }
+      100% {
+        transform: translatey(0px) ;
+        opacity: 1;
+      }
+  }
+  .Case1{
+    animation: opacity 1s both;
+    animation-delay: 0.1s;
+  }
+  .Case2{
+    animation: opacity 1s both;
+    animation-delay: 0.3s;
+  }
+  .Case3{
+    animation: opacity 1s both;
+    animation-delay: 0.4s;
+  }
+
 }
