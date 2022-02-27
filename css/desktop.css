@@ -191,6 +191,9 @@ article header p{
     display: flex;
     justify-content: space-between;
 }
+.NomNouriture{
+    width: 70%;
+}
 .NomRestaurant_Coeur h1{
    margin-left: 3%;
 }
@@ -251,15 +254,11 @@ article header p{
     margin-top: 30%;
     padding: 0 0 0 0;
 }
-.NomNouriture{
-    width: 70%;
-}
 .BoxNourriture:hover .CheckBox{
     display: inline-block;
     animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     width: 15%;
  }
-
 @keyframes rotate {
     0%{
         transform: rotate(0);
@@ -267,7 +266,6 @@ article header p{
     100%{
         transform: rotate(360deg);
     }
-    
 }
 .BoxNourriture:hover .IconeCheckBox{
     visibility: visible;
@@ -277,7 +275,6 @@ article header p{
     position: relative;
     right:-100px;
     animation: slide-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    
 }
   @keyframes scale-up-hor-right {
     0% {
@@ -293,7 +290,6 @@ article header p{
               transform-origin: 100% 100%;
     }
   }
-
   @keyframes slide-left {
     0% {
       -webkit-transform: translateX(0);
@@ -304,9 +300,7 @@ article header p{
               transform: translateX(-100px);
     }
   }
-
-
-
+/************************************************************************Opacité Box Nourriture**************************************************************************/
   @keyframes opacity {
     0% {
         transform: translatey(20px) ;
