@@ -233,6 +233,7 @@ article header p{
     top: 35%;
     left: 46%;
 }
+/*********************************************************************Checkbox*******************************************************************************************/
 .CheckBox{
     display: none;
     background-color: #99e2d0;
@@ -269,6 +270,7 @@ article header p{
     
 }
 .BoxNourriture:hover .IconeCheckBox{
+    visibility: visible;
     animation: rotate 0.5s both;
 }
 .BoxNourriture:hover .Prix{
