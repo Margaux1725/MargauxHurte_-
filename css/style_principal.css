@@ -337,9 +337,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.IconeCheckBox{
-    visibility: hidden;
-}
 /********************************************************************Loader***********************************************************************************************/
 .spinner{
     position: fixed;
@@ -415,4 +412,6 @@ body{
       visibility: hidden;
     }
  }
-
+ .IconeCheckBox{
+    visibility: hidden;
+}
