@@ -363,7 +363,7 @@ body{
     border-radius:100%;
     border: 6px solid transparent;
     border-top-color: #9356DC;
-    -webkit-animation: spin 1s linear infinite ;
+    -webkit-animation: spin 1s linear infinite;
 }
 .loader-circles::after{
     content: '';
