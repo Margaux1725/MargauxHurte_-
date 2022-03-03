@@ -279,29 +279,31 @@ Header h1 {
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     height: 90px;
+    overflow: hidden;
 }
 .NomNouriture{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    min-width: 67% ;
 }
 article header h3 {
     margin: 6% 0 2% 4%; 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 article header p {
-    margin: 0 0 6% 4%;
-    position: relative;
+    margin: 0 0 2% 4%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: none;
 }
 .Prix{
     align-self: flex-end;
-    margin: 0 5% 3% 0;
+    margin: 0 5% 7% 0;
     color: #353535;
     font-weight: 700;
 }
@@ -417,7 +419,7 @@ body{
     }
  }
  .IconeCheckBox{
-    visibility: hidden;
+    display: none;
 }
 
 .CheckBox{
@@ -427,7 +429,6 @@ body{
     border-bottom-right-radius: 20px;
     position: relative;
     text-align: center;
-    left: 2px;
 }
 .IconeCheckBox{
     background-color: #99e2d0;
@@ -440,7 +441,7 @@ body{
 .BoxNourriture:hover .CheckBox{
     display: inline-block;
     animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    width: 15%;
+    width: 25%;
  }
 @keyframes rotate {
     0%{
@@ -492,4 +493,12 @@ body{
       -moz-transform: translateX(-100px);
               transform: translateX(-100px);
     }
+    }
+    @keyframes cachetext {
+        0% {
+            width: auto;
+        }
+        100% {
+          width: 70%;
+        }
   }
