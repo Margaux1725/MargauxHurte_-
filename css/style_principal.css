@@ -278,6 +278,7 @@ Header h1 {
     margin: 3% 3% 3% 3%;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
+    height: 90px;
 }
 .NomNouriture{
     display: flex;
@@ -286,14 +287,17 @@ Header h1 {
 }
 article header h3 {
     margin: 6% 0 2% 4%; 
-    width: 100%;
-}
-article header p {
-    margin: 0 0 6% 4%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 87%;
+}
+article header p {
+    margin: 0 0 6% 4%;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: none;
 }
 .Prix{
     align-self: flex-end;
@@ -415,3 +419,77 @@ body{
  .IconeCheckBox{
     visibility: hidden;
 }
+
+.CheckBox{
+    display: none;
+    background-color: #99e2d0;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    text-align: center;
+    left: 2px;
+}
+.IconeCheckBox{
+    background-color: #99e2d0;
+    font-size: 3em;
+    color: #FFF;
+    text-align: center;
+    margin-top: 30%;
+    padding: 0 0 0 0;
+}
+.BoxNourriture:hover .CheckBox{
+    display: inline-block;
+    animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    width: 15%;
+ }
+@keyframes rotate {
+    0%{
+        -moz-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100%{
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.BoxNourriture:hover .IconeCheckBox{
+    visibility: visible;
+    animation: rotate 0.5s both;
+}
+.BoxNourriture:hover .Prix{
+    position: relative;
+    right:-100px;
+    animation: slide-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+  @keyframes scale-up-hor-right {
+    0% {
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        transform: scaleX(0);
+        -moz-transform-origin: 100% 100%;
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        -moz-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+  }
+  @keyframes slide-left {
+    0% {
+        -moz-transform: translateX(0);
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+      -moz-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
