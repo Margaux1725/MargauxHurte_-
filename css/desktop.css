@@ -190,9 +190,13 @@ article header p{
 .NomRestaurant_Coeur{
     display: flex;
     justify-content: space-between;
+    height: auto;
 }
 .NomNouriture{
     width: 70%;
+}
+.CoeursRestaurant{
+    width: auto;
 }
 .NomRestaurant_Coeur h1{
    margin-left: 3%;

@@ -109,12 +109,31 @@ article header p {
 .NomRestaurant_Coeur h1{
     margin-left: 4%;
 }
+.CoeursRestaurant{
+    width: 20%;
+}
+.CoeurVideRestaurant{
+    font-size: 2em;
+    position: relative;
+    margin: 20px 24px 12.5px 0;
+    display: flex;
+    fill: black;
+    z-index: 2;
+    right: -60px;
+    top: 30px;
+    }
 .CoeurRempliRestaurant{
-    visibility:hidden;
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 1%;
+    visibility:visible;
+    width: 30px;
+    height: 30px;
+    padding: 20px 20px 20px 20px;
+    font-size: 2.2em;
+    align-self: center;
+    position: relative;
+    opacity: 0;
+    z-index: 3;
+    right: 21px;
+    top: 32px;
 }
 .BoxNourriture:hover .CheckBox{
     display: inline-block;
