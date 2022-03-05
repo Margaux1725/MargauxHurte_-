@@ -354,6 +354,7 @@ article header p {
     border-bottom-right-radius: 20px;
     position: relative;
     text-align: center;
+    right: -3px;
 }
 .IconeCheckBox{
     background-color: #99e2d0;
