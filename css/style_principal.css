@@ -557,5 +557,61 @@ body{
       opacity: 0;
       visibility: hidden;
     }
- }
+}
+/************************************************************************Opacité Box Nourriture**************************************************************************/
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+            transform: translatey(25px)
+          }
+        50%{
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+            transform: translatey(0px)
+          }
+      }
+
+      .Box1{
+          animation: opacity 0.8s both linear;
+          animation-delay: 0.1s;
+      }
+      .Box2{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.2s;
+      }
+      .Box3{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.3s;
+      }
+      .Box4{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.4s;
+      }
+      .Box1_2{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.6s;
+      }
+      .Box2_2{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.7s;
+     }
+     .Box3_2{
+        animation: opacity 0.8s both linear;
+        animation-delay: 0.8s;
+     }
+     .Box1_3{
+        animation: opacity 0.8s both linear;
+        animation-delay: 1.2s;
+      }
+      .Box2_3{
+        animation: opacity 0.8s both linear;
+        animation-delay: 1.3s;
+     }
+     .Box3_3{
+        animation: opacity 0.8s both linear;
+        animation-delay: 1.4s;
+     }
+
 
